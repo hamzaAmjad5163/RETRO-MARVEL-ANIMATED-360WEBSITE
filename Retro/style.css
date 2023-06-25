@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: white;
+    overflow-x: hidden;
+}
+#page1 {
+    height: 110vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid black;
+}
+#nav h5{
+    font-size: 23px;
+    font-weight: 100;
+}
+#nav img {
+    height: 50px;
+    width: 300px;
+    justify-content: center;
+}
+#nav i{
+    text-align: right;
+    
+}
+#elems {
+    display: flex;
+    height: 430px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elems1{
+    width: 30%;
+    height: 100%;
+}
+#elems1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elems1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+#elems1 h4 span{
+    background-color: rgb(160, 6, 6);
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#elems1 p{
+    font-size: 20px;
+    font-family: 'Marvel', serif;
+}
+#elems1 p span{
+    color: rgb(56, 50, 50);
+    font-family: 'IM Fell French Canon SC', serif;
+}
+#elems2{
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    padding: 20px 60px;
+    text-align: center;
+}
+#elems2 h2 {
+    
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 50px;
+    font-weight: 100;
+    border-bottom: 1px solid darkgray;
+}
+#elems2 h3 {
+    font-size: 20px;
+    font-family: 'Marvel', serif;
+    margin-top: 40px;
+    
+}
+#elems2 h6 {
+    font-size: 13px;
+    margin-top: 50px;
+    border-bottom: 1px solid darkgray;
+}
+#elems3{
+    width: 30%;
+    height: 100%;
+}
+#elems3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elems3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+#elems3 h4 span{
+    background-color: rgb(160, 6, 6);
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#elems3 p{
+    font-size: 20px;
+    font-family: 'Marvel', serif;
+}
+#elems3 p span{
+    color: rgb(7, 7, 7);
+    font-family: 'IM Fell French Canon SC', serif;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image-div:hover img{
+    scale: 1.1;
+
+}
+#page1 h1{
+    background-color: rgb(68, 65, 65);
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 250px;
+    margin-right: 2%;
+    margin-left: 2%;
+    line-height: 300px;
+    letter-spacing: -30px;
+    
+}
+
+#page2 {
+    height: 180vh;
+    width: 100%;
+    align-items: center;
+    padding: 90px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#page2-left {
+    
+    height: 100%;
+    width: 35%;
+    padding-right: 50px;
+    border-right: 2px solid darkgray;
+}
+#page2-left h2{
+    font-size: 80px;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 50;
+}
+#page2-left h2 span{
+    font-size: 100px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 900;
+}
+#page2-left h1{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 50;
+}
+#page2-left h1 span{
+    
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 900;
+    border-radius: 17px 0;
+}
+#page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-left p{
+    font-size: 34px;
+    font-family: 'Marvel', serif;
+    font-weight: 100;
+    margin-top: 20px;
+}
+#page2-right {
+    padding-top: 100px;
+    height: 100%;
+    width: 60%;
+    padding: 0 50px;
+}
+#page2-right img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    padding-bottom: 20px;
+}
+#page2-right:hover img{
+    scale: 1.1;
+}
+#page2-right p{
+    font-size: 40px;
+    text-align:left;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+#page3 {
+    height: 40vh;
+    display: flex;
+    position: relative;
+    
+}
+#page3 h1{
+    font-size: 290px;
+    background-color: rgb(68, 65, 65);
+    color: rgb(240, 240, 240);
+    width: 66%;
+    margin-left: 2%;
+border-radius: 5px;
+    margin-right: 10%;
+    font-weight: 100;
+    letter-spacing: -12px;
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#page4-left{
+    width: 70%;
+    height: 100%;
+    padding: 10px 60px;
+    
+}
+#pagen{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+#pagen #left1 h2{
+    font-size: 40px;
+    padding: 3%;
+    font-weight: 100;
+    
+}
+#pagen #left1{
+    border-right: 10px solid gray;
+    margin-right: 2%;
+}
+#pagen #left2{
+    margin-left: 3%;
+}
+#pagen #left2 h2{
+    font-size: 50px;
+    margin-right: 5%;
+    border-left: 1px solid gray;
+    margin-top: 5%;
+}
+#pagen #left3{
+    border-left: 10px solid gray;
+    margin-right: 2%;
+
+    
+}
+#pagen #left3 p{
+    font-size: 150px;
+    
+    margin-left: 10px;
+    background-color: rgb(68, 65, 65);
+    color: rgb(240, 240, 240);
+}
+
+#pagen #left1 p {
+    margin-top: 10%;
+    border-bottom: 1px solid gray;
+    margin-left: 2%;
+}
+#pagen #left1 h3 {
+    margin-top: 30%;
+    border-bottom: 1px solid gray;
+    margin-left: 2%;
+}
+
+#pagen #left2 img{
+    height: 60%;
+    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
+    
+    transition: all ease 0.5s;
+    
+}
+#page4-left img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#page4-right{
+    width: 35%;
+    height: 100%;
+    padding: 80px;
+    
+}
+
+#page4-right p{
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 5%;
+    color: rgb(112, 112, 112);
+    margin-bottom: 50px;
+    
+}
+#page4-right #anda {
+    height: 260px;
+    background-color: rgb(68, 65, 65);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#anda h1 {
+    font-size: 70px;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+    color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-26%);
+    transition: all ease 0.6s;
+}
+
+#anda img {
+    height: 60px;
+    transition: all ease 0.6s;
+    color: rgb(240, 240, 240);;
+    transform: translateX(-120%);
+}
+
+#anda:hover img {
+    transform: translateX(76%);
+
+}
+
+#anda:hover h1 {
+    transform: translateX(100%);
+
+}
+#page5 {
+    padding: 25px 0;
+    width: 100%;
+    background-color: darkgray;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#page5::-webkit-scrollbar {
+    display: none;
+}
+
+#page5 h1 {
+    font-size: 100px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    animation-timing-function: linear;
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#page5 h1 span {
+    background-color: #1b1b1b;
+    color: #C4BCB3;
+    padding: 0 12px;
+}
+
+#page6 {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+
+#page5:hover h1{
+    animation-play-state: paused;
+}
+
+#page7{
+    background-color: black;
+    height: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px 10px 0  0 ;
+    
+}
+#page7 h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 40%;
+}
+#page7 h2 span{
+    color: gray;
+    margin-left: 5%;
+}
